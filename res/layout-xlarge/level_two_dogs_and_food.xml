@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_fon">
+
+    <Button
+        android:id="@+id/btn_new_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/my_style_button"
+        android:text="@string/pg_btn_back"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline38"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline37" />
+
+    <Button
+        android:id="@+id/btn_new_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/my_style_button"
+        android:text="@string/btn_next"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_new_back"
+        app:layout_constraintTop_toTopOf="@+id/guideline37" />
+
+    <ImageView
+        android:id="@+id/img_large_golden"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="116dp"
+        app:layout_constraintStart_toStartOf="@+id/guideline38"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/large_golden" />
+
+    <ImageView
+        android:id="@+id/img_dry_2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline41"
+        app:layout_constraintEnd_toStartOf="@+id/img_dry_3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_dry_1"
+        app:layout_constraintTop_toTopOf="@+id/guideline35"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/img_dry_food_2" />
+
+    <ImageView
+        android:id="@+id/img_cooked_3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline41"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_cooked_2"
+        app:layout_constraintTop_toTopOf="@+id/guideline35"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/img_cooked_food_3" />
+
+
+    <ImageView
+        android:id="@+id/img_cooked_2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline41"
+        app:layout_constraintEnd_toStartOf="@+id/img_cooked_3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_cooked_1"
+        app:layout_constraintTop_toTopOf="@+id/guideline35"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/img_cooked_food_2" />
+
+    <ImageView
+        android:id="@+id/img_cooked_1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline41"
+        app:layout_constraintEnd_toStartOf="@+id/img_cooked_2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_dry_3"
+        app:layout_constraintTop_toTopOf="@+id/guideline35"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/img_cooked_food_1" />
+
+    <ImageView
+        android:id="@+id/img_dry_3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline41"
+        app:layout_constraintEnd_toStartOf="@+id/img_cooked_1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_dry_2"
+        app:layout_constraintTop_toTopOf="@+id/guideline35"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/img_dry_food_3" />
+
+    <ImageView
+        android:id="@+id/img_dry_1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="57dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline41"
+        app:layout_constraintEnd_toStartOf="@+id/img_dry_2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline35"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/img_dry_food_1" />
+
+    <ImageView
+        android:id="@+id/img_dog_drinking"
+        android:layout_width="260dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="96dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline37"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline36"
+        app:layout_constraintVertical_bias="0.323"
+        app:srcCompat="@drawable/drinking" />
+
+
+    <ImageView
+        android:id="@+id/img_wind_strong_tail"
+        android:layout_width="40dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/img_wind_medium_tail"
+        app:layout_constraintStart_toStartOf="@+id/guideline42"
+        app:layout_constraintTop_toTopOf="@+id/guideline33"
+        app:srcCompat="@drawable/img_wind_strong_tail_80x120" />
+
+    <ImageView
+        android:id="@+id/img_wind_medium_tail"
+        android:layout_width="40dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="112dp"
+        app:layout_constraintBottom_toTopOf="@+id/img_wind_low_tail"
+        app:layout_constraintStart_toStartOf="@+id/guideline42"
+        app:layout_constraintTop_toBottomOf="@+id/img_wind_strong_tail"
+        app:srcCompat="@drawable/img_wind_mid_tail_80x120" />
+
+    <ImageView
+        android:id="@+id/img_wind_low_tail"
+        android:layout_width="40dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline35"
+        app:layout_constraintStart_toStartOf="@+id/guideline42"
+        app:layout_constraintTop_toBottomOf="@+id/img_wind_medium_tail"
+        app:srcCompat="@drawable/img_wind_slow_tail_80x120" />
+
+    <ImageView
+        android:id="@+id/img_wind_strong_head"
+        android:layout_width="40dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/img_wind_medium_head"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.737"
+        app:layout_constraintStart_toStartOf="@+id/guideline39"
+        app:layout_constraintTop_toBottomOf="@+id/guideline33"
+        app:srcCompat="@drawable/img_wind_strong_head_80x120" />
+
+    <ImageView
+        android:id="@+id/img_wind_medium_head"
+        android:layout_width="40dp"
+        android:layout_height="55dp"
+        app:layout_constraintBottom_toTopOf="@+id/img_wind_low_head"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.737"
+        app:layout_constraintStart_toStartOf="@+id/guideline39"
+        app:layout_constraintTop_toBottomOf="@+id/img_wind_strong_head"
+        app:srcCompat="@drawable/img_wind_mid_head_80x120" />
+
+    <ImageView
+        android:id="@+id/img_wind_low_head"
+        android:layout_width="40dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline35"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.993"
+        app:layout_constraintStart_toStartOf="@+id/guideline39"
+        app:layout_constraintTop_toBottomOf="@+id/img_wind_medium_head"
+        app:srcCompat="@drawable/img_wind_slow_head_80x120" />
+
+    <RadioButton
+        android:id="@+id/radio_large_golden"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="32dp"
+        android:onClick="onRadioButtonClicked"
+        android:saveEnabled="true"
+        app:layout_constraintBottom_toTopOf="@+id/guideline33"
+        app:layout_constraintEnd_toStartOf="@+id/guideline39"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/img_large_golden"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <RadioGroup
+        android:id="@+id/radio_group_food_morning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/guideline40"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.302"
+        app:layout_constraintStart_toStartOf="@+id/guideline42"
+        app:layout_constraintTop_toTopOf="@+id/guideline41"
+        app:layout_constraintVertical_bias="0.0">
+
+        <RadioButton
+            android:id="@+id/radio_dry_1_morning"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:onClick="onRadioButtonClicked" />
+
+        <RadioButton
+            android:id="@+id/radio_dry_2_morning"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:onClick="onRadioButtonClicked" />
+
+        <RadioButton
+            android:id="@+id/radio_dry_3_morning"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="30dp"
+            android:onClick="onRadioButtonClicked" />
+
+        <RadioButton
+            android:id="@+id/radio_cooked_1_morning"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:onClick="onRadioButtonClicked" />
+
+        <RadioButton
+            android:id="@+id/radio_cooked_2_morning"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:onClick="onRadioButtonClicked" />
+
+        <RadioButton
+            android:id="@+id/radio_cooked_3_morning"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:onClick="onRadioButtonClicked" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radio_group_food_evening"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/guideline36"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.328"
+        app:layout_constraintStart_toStartOf="@+id/guideline42"
+        app:layout_constraintTop_toTopOf="@+id/guideline40"
+        app:layout_constraintVertical_bias="0.333">
+
+        <RadioButton
+            android:id="@+id/radio_dry_1_evening"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:onClick="onRadioButtonClicked" />
+
+        <RadioButton
+            android:id="@+id/radio_dry_2_evening"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:onClick="onRadioButtonClicked" />
+
+        <RadioButton
+            android:id="@+id/radio_dry_3_evening"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:onClick="onRadioButtonClicked" />
+
+        <RadioButton
+            android:id="@+id/radio_cooked_1_evening"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:onClick="onRadioButtonClicked" />
+
+        <RadioButton
+            android:id="@+id/radio_cooked_2_evening"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:onClick="onRadioButtonClicked" />
+
+        <RadioButton
+            android:id="@+id/radio_cooked_3_evening"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:onClick="onRadioButtonClicked" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radio_group_water"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/guideline37"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline38"
+        app:layout_constraintTop_toTopOf="@+id/guideline36"
+        app:layout_constraintVertical_bias="0.0">
+
+        <RadioButton
+            android:id="@+id/radio_water_yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/radio_yes"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/radio_water_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/radio_no"
+            android:textSize="18sp" />
+
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/txt_wind_strong_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:text="@string/wind_description_strong_head"
+        android:textColor="@color/My_orange"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/txt_wind_medium_head"
+        app:layout_constraintStart_toStartOf="@+id/guideline38"
+        app:layout_constraintTop_toTopOf="@+id/guideline33" />
+
+    <TextView
+        android:id="@+id/txt_wind_medium_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:text="@string/wind_description_medium_head"
+        android:textColor="@color/My_orange"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/txt_wind_low_head"
+        app:layout_constraintStart_toStartOf="@+id/guideline38"
+        app:layout_constraintTop_toBottomOf="@+id/txt_wind_strong_head" />
+
+    <TextView
+        android:id="@+id/txt_wind_low_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:text="@string/wind_description_low_head"
+        android:textColor="@color/My_orange"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline35"
+        app:layout_constraintStart_toStartOf="@+id/guideline38"
+        app:layout_constraintTop_toBottomOf="@+id/txt_wind_medium_head" />
+
+    <TextView
+        android:id="@+id/txt_large_golden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/largedogfour"
+        android:textColor="@color/purple_700"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toStartOf="@+id/guideline39"
+        app:layout_constraintHorizontal_bias="0.011"
+        app:layout_constraintStart_toStartOf="@+id/guideline38"
+        app:layout_constraintTop_toBottomOf="@+id/img_large_golden" />
+
+    <TextView
+        android:id="@+id/txt_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:text="@string/txt_level_two"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.793"
+        app:layout_constraintStart_toStartOf="@+id/guideline38"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_dog_food"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/txt_feed_pet"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline35" />
+
+    <TextView
+        android:id="@+id/txt_morning_food"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:text="@string/player_has_food_morning"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/guideline40"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline41"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txt_evening_food"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:text="@string/player_has_food_evening"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/guideline36"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline40"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txt_more_water"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ask_for_water"
+        android:textColor="@color/purple_500"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline37"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintStart_toStartOf="@+id/guideline38"
+        app:layout_constraintTop_toTopOf="@+id/guideline36"
+        app:layout_constraintVertical_bias="0.106" />
+
+    <TextView
+        android:id="@+id/txt_level_one_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:text="@string/level_two_description"
+        android:textColor="@color/My_orange"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="@+id/guideline32" />
+
+    <TextView
+        android:id="@+id/txt_wind_strong_tail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wind_description_strong_tail"
+        android:textColor="@color/My_orange"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/txt_wind_medium_tail"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="@+id/guideline33" />
+
+    <TextView
+        android:id="@+id/txt_wind_medium_tail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wind_description_medium_tail"
+        android:textColor="@color/My_orange"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/txt_wind_low_tail"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/txt_wind_strong_tail" />
+
+    <TextView
+        android:id="@+id/txt_wind_low_tail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wind_description_low_tail"
+        android:textColor="@color/My_orange"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline35"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/txt_wind_medium_tail" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.15" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.27222982" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.38030097" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.50" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.74" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.88" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.39" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.685" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.68" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.625" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.20924574" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.07" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView_level2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-1502973434730162/4750451966"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </com.google.android.gms.ads.AdView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

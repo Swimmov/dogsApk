@@ -9,17 +9,16 @@
     tools:context=".MainActivity">
 
 
-
-    <ImageView
+     <ImageView
         android:id="@+id/main_img_dog"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
         android:src="@drawable/main_img"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="ContentDescription" />
+        />
 
     <ImageView
         android:id="@+id/image_main_text"
@@ -46,7 +45,5 @@
         app:layout_constraintStart_toStartOf="parent">
 
     </com.google.android.gms.ads.AdView>
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

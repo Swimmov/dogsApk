@@ -8,8 +8,6 @@
     android:background="@drawable/main_fon"
     tools:context=".MainActivity">
 
-
-
     <ImageView
         android:id="@+id/main_img_dog"
         android:layout_width="wrap_content"
@@ -21,6 +19,21 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="ContentDescription" />
 
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView_level1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-1502973434730162/4750451966"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </com.google.android.gms.ads.AdView>
+
     <ImageView
         android:id="@+id/image_main_text"
         android:layout_width="wrap_content"
@@ -31,22 +44,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/name" />
-
-
-    <com.google.android.gms.ads.AdView
-        android:id="@+id/adView_level1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        app:adSize="BANNER"
-        app:adUnitId="ca-app-pub-1502973434730162/4750451966"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
-        app:layout_constraintStart_toStartOf="parent">
-
-    </com.google.android.gms.ads.AdView>
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

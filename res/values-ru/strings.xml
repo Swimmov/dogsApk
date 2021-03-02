@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Собачкин Гольф</string>
+    <string name="start_button">Старт</string>
+    <string name="btn_system_msg">Что бы выйти из игры нажмите еще раз</string>
+    <string name="player1_text">Имя Игрока</string>
+    <string name="pg_btn_back">Назад</string>
+    <string name="btn_next">Продолжить</string>
+    <string name="pg2_btn_go">Начать игру</string>
+    <string name="txt_players_choice">Выбор Игрока</string>
+
+    <string name="temp_txt_breed_left_top">ПородаЛевыйВерх</string>
+    <string name="temp_txt_breed_left_bottom">ПородаЛевыйНиз</string>
+   <string name="temp_txt_breed_right_top">ПородаПравыйВерх</string>
+    <string name="temp_txt_breed_right_bottom">ПородаПравыйНиз</string>
+
+    <string name="sizelarge">Большие</string>
+    <string name="sizemedium">Средние</string>
+    <string name="sizesmall">Мелкие</string>
+
+    <string name="largedogtwo">Ретривер</string>
+    <string name="largedogthree">Борзая</string>
+    <string name="largedogfour">Золотой Пудель</string>
+
+    <string name="mediumdogone">Корги</string>
+    <string name="mediumdogtwo">Ирландский Терьер</string>
+    <string name="mediumdogthree">Буль Терьер</string>
+
+    <string name="smalldogone">Джек Рассел</string>
+    <string name="smalldogtwo">Такса</string>
+    <string name="smalldogfour">Французский Бульдог</string>
+
+   <string name="txt_feed_pet">Корми своего питомца</string>
+
+    <string name="radio_yes">Да</string>
+    <string name="radio_no">Нет</string>
+    <string name="player_has_food_morning"> утро \n\t\tеда</string>
+    <string name="player_has_food_evening"> вечер \n\t\tеда</string>
+    <string name="ask_for_water">Еще воды для собачки?</string>
+
+    <string name="txt_now_throw_the_bag">Брось мешок в мусорный бак</string>
+    <string name="txt_throw_to_the_can1">Брось мешок в  <b><font color="#FF0000"> МУСОРНЫЙ БАК 1</font> </b>
+        Брось мешок в  <b> <font color="#FF0000">МУСОРНЫЙ БАК 1</font> </b>Брось мешок в <b><font color="#FF0000">МУСОРНЫЙ БАК 1</font> </b></string>
+    <string name="txt_throw_to_the_can2">Брось мешок в <b><font color="#FF0000">TRASH CAN 2</font> </b>
+       Брось мешок в   <b><font color="#FF0000">МУСОРНЫЙ БАК 2</font> </b>Брось мешок в  <b> <font color="#FF0000">МУСОРНЫЙ БАК 2</font> </b></string>
+    <string name="txt_throw_to_the_can3"> Брось мешок в  <b><font color="#FF0000">TRASH CAN 3</font> </b>
+        Брось мешок в   <b><font color="#FF0000">МУСОРНЫЙ БАК 3</font> </b>Брось мешок в  <b> <font color="#FF0000">МУСОРНЫЙ БАК 3</font> </b></string>
+
+    <string name="txt_now_throw_the_bag_running">Брось мешок в мусорный бак. Брось мешок в мусорный бак. Брось мешок в мусорный бак.</string>
+    <string name="btn_new_game">Новая \nигра</string>
+    <string name="btn_large_new_game">Новая игра</string>
+    <string name="btn_throw_the_bag">Бросок</string>
+    <string name="txt_pwr_of_throw">Сила</string>
+    <string name="txt_wind">Ветер</string>
+    <string name="txt_dist_to_the_can">Мусорный бак\nрастояние</string>
+    <string name="txt_pl_total_dist">Результат</string>
+    <string name="pl_start_result"> 0 </string>
+    <string name="pl_loop"> - 0 - </string>
+    <string name="bongo"> ! ! !  B I N G O ! ! ! </string>
+
+    <string name="btn_next_level"> Следующий Уровень </string>
+    <string name="txt_level_one"> Уровень Первый </string>
+    <string name="txt_level_two"> Уровень Два </string>
+    <string name="txt_level_three"> Уровень Три </string>
+
+    <string name="txt_throws"> броски : </string>
+
+    <string name="level_one_description"> Сейчас у тебя собака большого размера. Его нужно кормить.
+        \nПопробуй разные комбинации еды:
+        \n<font color="#ff0000"> Завтрак </font>  + <font color = "#FFBB86FC"> Ужин </font>
+        + <font color = "#FF018786">  Вода </font>
+        \nРазличные наборы еды влияют на расстояние, на которое можно бросить мешок.
+        \nИспользуйте кнопки <font color = "#FF6200EE">power</font> \nчтобы регулировать дистанцию броска
+        \nСтарайся использовать <font color = "#DF5B5B">МИНИМУМ бросков</font>, \nчтобы попасть в урну .
+    </string>
+
+    <string name="level_two_description"> На этом уровне нужно учитывать ветер</string>
+    <string name="wind_description_strong_tail"> Сильный попутный</string>
+    <string name="wind_description_medium_tail"> Средний попутный</string>
+    <string name="wind_description_low_tail"> Слабый попутный</string>
+    <string name="wind_description_strong_head"> Сильный встречный</string>
+    <string name="wind_description_medium_head"> Средний встречный</string>
+    <string name="wind_description_low_head"> Слабый встречный</string>
+
+</resources>

@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_fon">
+
+    <Button
+        android:id="@+id/btn_new_back"
+        android:layout_width="79dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/my_style_button"
+        android:text="@string/pg_btn_back"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline37" />
+
+    <Button
+        android:id="@+id/btn_new_next"
+        android:layout_width="86dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/my_style_button"
+        android:text="@string/btn_next"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_new_back"
+        app:layout_constraintTop_toTopOf="@+id/guideline37" />
+
+    <ImageView
+        android:id="@+id/img_large_golden"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/txt_large_golden"
+        app:layout_constraintEnd_toStartOf="@+id/guideline38"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:srcCompat="@drawable/large_golden" />
+
+    <ImageView
+        android:id="@+id/img_small_dachshunds"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        app:layout_constraintBottom_toTopOf="@+id/txt_small_dachshunds"
+        app:layout_constraintStart_toStartOf="@+id/guideline39"
+        app:layout_constraintTop_toBottomOf="@+id/txt_small_jeck"
+        app:srcCompat="@drawable/small_dachshunds" />
+
+    <ImageView
+        android:id="@+id/img_small_franch"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        app:layout_constraintBottom_toTopOf="@+id/txt_small_franch"
+        app:layout_constraintStart_toStartOf="@+id/guideline39"
+        app:layout_constraintTop_toBottomOf="@+id/txt_small_dachshunds"
+        app:srcCompat="@drawable/small_franch" />
+
+    <ImageView
+        android:id="@+id/img_small_jeck"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/txt_small_jeck"
+        app:layout_constraintStart_toStartOf="@+id/guideline39"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:srcCompat="@drawable/small_jeck" />
+
+    <ImageView
+        android:id="@+id/img_large_greyhound"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/txt_large_greyhound"
+        app:layout_constraintEnd_toStartOf="@+id/guideline38"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/txt_large_golden"
+        app:srcCompat="@drawable/large_greyhound" />
+
+    <ImageView
+        android:id="@+id/img_large_retriever"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/txt_large_retriever"
+        app:layout_constraintEnd_toStartOf="@+id/guideline38"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/txt_large_greyhound"
+        app:srcCompat="@drawable/large_retriever" />
+
+    <ImageView
+        android:id="@+id/img_dry_2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline41"
+        app:layout_constraintEnd_toStartOf="@+id/img_dry_3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_dry_1"
+        app:layout_constraintTop_toTopOf="@+id/guideline35"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/img_dry_food_2" />
+
+    <ImageView
+        android:id="@+id/img_cooked_3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline41"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_cooked_2"
+        app:layout_constraintTop_toTopOf="@+id/guideline35"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/img_cooked_food_3" />
+
+    <ImageView
+        android:id="@+id/img_cooked_2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline41"
+        app:layout_constraintEnd_toStartOf="@+id/img_cooked_3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_cooked_1"
+        app:layout_constraintTop_toTopOf="@+id/guideline35"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/img_cooked_food_2" />
+
+    <ImageView
+        android:id="@+id/img_cooked_1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline41"
+        app:layout_constraintEnd_toStartOf="@+id/img_cooked_2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_dry_3"
+        app:layout_constraintTop_toTopOf="@+id/guideline35"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/img_cooked_food_1" />
+
+    <ImageView
+        android:id="@+id/img_dry_3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline41"
+        app:layout_constraintEnd_toStartOf="@+id/img_cooked_1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_dry_2"
+        app:layout_constraintTop_toTopOf="@+id/guideline35"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/img_dry_food_3" />
+
+    <ImageView
+        android:id="@+id/img_dry_1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline41"
+        app:layout_constraintEnd_toStartOf="@+id/img_dry_2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="@+id/guideline35"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/img_dry_food_1" />
+
+    <ImageView
+        android:id="@+id/img_dog_drinking"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="64dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline37"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline36"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/drinking" />
+
+    <ImageView
+        android:id="@+id/img_medium_bull"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/txt_medium_bull"
+        app:layout_constraintStart_toStartOf="@+id/guideline38"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:srcCompat="@drawable/medium_bull" />
+
+    <ImageView
+        android:id="@+id/img_medium_corgi"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/txt_medium_corgi"
+        app:layout_constraintStart_toStartOf="@+id/guideline38"
+        app:layout_constraintTop_toBottomOf="@+id/txt_medium_irish"
+        app:srcCompat="@drawable/medium_corgi" />
+
+    <ImageView
+        android:id="@+id/img_medium_irish"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/txt_medium_irish"
+        app:layout_constraintStart_toStartOf="@+id/guideline38"
+        app:layout_constraintTop_toBottomOf="@+id/txt_medium_bull"
+        app:srcCompat="@drawable/medium_irish" />
+
+
+    <RadioGroup
+        android:id="@+id/radio_group_food_morning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/guideline40"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.386"
+        app:layout_constraintStart_toStartOf="@+id/guideline42">
+
+        <RadioButton
+            android:id="@+id/radio_dry_1_morning"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:onClick="onRadioButtonClicked" />
+
+        <RadioButton
+            android:id="@+id/radio_dry_2_morning"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="10dp"
+            android:onClick="onRadioButtonClicked" />
+
+        <RadioButton
+            android:id="@+id/radio_dry_3_morning"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="10dp"
+            android:onClick="onRadioButtonClicked" />
+
+        <RadioButton
+            android:id="@+id/radio_cooked_1_morning"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="10dp"
+            android:onClick="onRadioButtonClicked" />
+
+        <RadioButton
+            android:id="@+id/radio_cooked_2_morning"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="10dp"
+            android:onClick="onRadioButtonClicked" />
+
+        <RadioButton
+            android:id="@+id/radio_cooked_3_morning"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="10dp"
+            android:onClick="onRadioButtonClicked"/>
+
+    </RadioGroup>
+
+
+    <RadioGroup
+        android:id="@+id/radio_group_food_evening"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="12dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/guideline36"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toStartOf="@+id/guideline42">
+
+        <RadioButton
+            android:id="@+id/radio_dry_1_evening"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:onClick="onRadioButtonClicked" />
+
+        <RadioButton
+            android:id="@+id/radio_dry_2_evening"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="10dp" />
+
+        <RadioButton
+            android:id="@+id/radio_dry_3_evening"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="10dp"
+            android:onClick="onRadioButtonClicked" />
+
+        <RadioButton
+            android:id="@+id/radio_cooked_1_evening"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="10dp"
+            android:onClick="onRadioButtonClicked" />
+
+        <RadioButton
+            android:id="@+id/radio_cooked_2_evening"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="10dp"
+            android:onClick="onRadioButtonClicked" />
+
+        <RadioButton
+            android:id="@+id/radio_cooked_3_evening"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="10dp" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radio_group_large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="36dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline35"
+        app:layout_constraintEnd_toEndOf="@+id/guideline38"
+        app:layout_constraintHorizontal_bias="0.673"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <RadioButton
+            android:id="@+id/radio_large_golden"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+
+            android:onClick="onRadioButtonClicked" />
+
+        <RadioButton
+            android:id="@+id/radio_large_greyhound"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="35dp"
+            android:onClick="onRadioButtonClicked" />
+
+        <RadioButton
+            android:id="@+id/radio_large_retriever"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="30dp"
+            android:onClick="onRadioButtonClicked" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radio_group_medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="36dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline35"
+        app:layout_constraintEnd_toEndOf="@+id/guideline39"
+        app:layout_constraintHorizontal_bias="0.582"
+        app:layout_constraintStart_toStartOf="@+id/guideline38">
+
+        <RadioButton
+            android:id="@+id/radio_medium_bull"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+
+            android:onClick="onRadioButtonClicked" />
+
+        <RadioButton
+            android:id="@+id/radio_medium_corgi"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="35dp"
+            android:onClick="onRadioButtonClicked" />
+
+        <RadioButton
+            android:id="@+id/radio_medium_irish"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="30dp"
+            android:onClick="onRadioButtonClicked" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radio_group_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline35"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.479"
+        app:layout_constraintStart_toStartOf="@+id/guideline39"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.59">
+
+        <RadioButton
+            android:id="@+id/radio_small_jeck"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+
+            android:onClick="onRadioButtonClicked" />
+
+        <RadioButton
+            android:id="@+id/radio_small_dachshunds"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="35dp"
+            android:onClick="onRadioButtonClicked" />
+
+        <RadioButton
+            android:id="@+id/radio_small_franch"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="30dp"
+            android:onClick="onRadioButtonClicked" />
+
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radio_group_water"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:orientation="horizontal"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.464"
+        app:layout_constraintStart_toStartOf="@+id/guideline38"
+        app:layout_constraintTop_toTopOf="@+id/guideline36">
+
+        <RadioButton
+            android:id="@+id/radio_water_yes"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/radio_yes" />
+
+        <RadioButton
+            android:id="@+id/radio_water_no"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="15dp"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/radio_no" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/txt_medium_corgi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mediumdogone"
+        android:textColor="@color/purple_700"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline35"
+        app:layout_constraintStart_toStartOf="@+id/guideline38"
+        app:layout_constraintTop_toBottomOf="@+id/img_medium_corgi" />
+
+    <TextView
+        android:id="@+id/txt_medium_irish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mediumdogtwo"
+        android:textColor="@color/purple_700"
+        android:textSize="10sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/img_medium_corgi"
+        app:layout_constraintStart_toStartOf="@+id/guideline38"
+        app:layout_constraintTop_toBottomOf="@+id/img_medium_irish" />
+
+    <TextView
+        android:id="@+id/txt_medium_bull"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mediumdogthree"
+        android:textColor="@color/purple_700"
+        android:textSize="10sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/img_medium_irish"
+        app:layout_constraintStart_toStartOf="@+id/guideline38"
+        app:layout_constraintTop_toBottomOf="@+id/img_medium_bull" />
+
+    <TextView
+        android:id="@+id/txt_large_golden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/largedogfour"
+        android:textColor="@color/purple_700"
+        android:textSize="10sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/img_large_greyhound"
+        app:layout_constraintEnd_toStartOf="@+id/guideline38"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/img_large_golden" />
+
+    <TextView
+        android:id="@+id/txt_large_greyhound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/largedogthree"
+        android:textColor="@color/purple_700"
+        android:textSize="10sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/img_large_retriever"
+        app:layout_constraintEnd_toStartOf="@+id/guideline38"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/img_large_greyhound" />
+
+    <TextView
+        android:id="@+id/txt_large_retriever"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/largedogtwo"
+        android:textColor="@color/purple_700"
+        android:textSize="10sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/guideline35"
+        app:layout_constraintEnd_toStartOf="@+id/guideline38"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/img_large_retriever" />
+
+    <TextView
+        android:id="@+id/txt_small_franch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/smalldogfour"
+        android:textColor="@color/purple_700"
+        android:textSize="10sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/guideline35"
+        app:layout_constraintStart_toStartOf="@+id/guideline39"
+        app:layout_constraintTop_toBottomOf="@+id/img_small_franch" />
+
+    <TextView
+        android:id="@+id/txt_small_jeck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/smalldogone"
+        android:textColor="@color/purple_700"
+        android:textSize="10sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/img_small_dachshunds"
+        app:layout_constraintStart_toStartOf="@+id/guideline39"
+        app:layout_constraintTop_toBottomOf="@+id/img_small_jeck" />
+
+    <TextView
+        android:id="@+id/txt_small_dachshunds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/smalldogtwo"
+        android:textColor="@color/purple_700"
+        android:textSize="10sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/img_small_franch"
+        app:layout_constraintStart_toStartOf="@+id/guideline39"
+        app:layout_constraintTop_toBottomOf="@+id/img_small_dachshunds" />
+
+    <TextView
+        android:id="@+id/txt_dog_food"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_feed_pet"
+        android:textSize="10sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.586"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline35" />
+
+    <TextView
+        android:id="@+id/txt_morning_food"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/player_has_food_morning"
+        android:textSize="10sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/guideline40"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_evening_food"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/player_has_food_evening"
+        android:textSize="10sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/guideline36"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_more_water"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ask_for_water"
+        android:textColor="@color/purple_500"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline37"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintStart_toStartOf="@+id/guideline38"
+        app:layout_constraintTop_toTopOf="@+id/guideline36"
+        app:layout_constraintVertical_bias="0.106" />
+
+
+    <TextView
+        android:id="@+id/txt_sizesmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/sizesmall"
+        android:textColor="@color/My_orange"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline32"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintStart_toEndOf="@+id/txt_medium"
+        app:layout_constraintStart_toStartOf="@+id/guideline39" />
+
+    <TextView
+        android:id="@+id/txt_medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/sizemedium"
+        android:textColor="@color/My_orange"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline32"
+        app:layout_constraintEnd_toStartOf="@+id/txt_sizesmall"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toEndOf="@+id/txt_large"
+        app:layout_constraintStart_toStartOf="@+id/guideline38" />
+
+    <TextView
+        android:id="@+id/txt_large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/sizelarge"
+        android:textColor="@color/My_orange"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline32"
+        app:layout_constraintEnd_toStartOf="@+id/txt_medium"
+        app:layout_constraintHorizontal_bias="0.339"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.16" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.27222982" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.38030097" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.50" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.74" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.88" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.39" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.685" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.68" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.625" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.20924574" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.0715" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView_level3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-1502973434730162/4750451966"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </com.google.android.gms.ads.AdView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

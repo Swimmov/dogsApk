@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">DogsPooGolf</string>
+    <string name="start_button">Start</string>
+    <string name="btn_system_msg">Press one more time to leave the game</string>
+    <string name="player1_text">Players Name</string>
+    <string name="pg_btn_back">Back</string>
+    <string name="btn_next">Continue</string>
+    <string name="pg2_btn_go">Start Game</string>
+    <string name="txt_players_choice">Players Choice</string>
+    <string name="temp_txt_breed_left_top">BreedLeftTop</string>
+    <string name="temp_txt_breed_left_bottom">BreedLeftBottom</string>
+   <string name="temp_txt_breed_right_top">BreedRightTop</string>
+    <string name="temp_txt_breed_right_bottom">BreedRightBottom</string>
+
+    <string name="sizelarge">Large</string>
+    <string name="sizemedium">Medium</string>
+    <string name="sizesmall">Small</string>
+    <string name="largedogtwo">Gld Retriever</string>
+    <string name="largedogthree">Greyhound</string>
+    <string name="largedogfour">Gld Doodle</string>
+    <string name="mediumdogone">Corgi</string>
+    <string name="mediumdogtwo">Irish Terrier</string>
+    <string name="mediumdogthree">Bull Terrier</string>
+    <string name="smalldogone">Jack Russell</string>
+    <string name="smalldogtwo">Dachshund</string>
+    <string name="smalldogfour">French Bulldog</string>
+
+   <string name="txt_feed_pet">Feed your pet</string>
+
+    <string name="radio_yes">Yes</string>
+    <string name="radio_no">No</string>
+    <string name="player_has_food_morning"> morning \n\t\tfood</string>
+    <string name="player_has_food_evening"> evening \n\t\tfood</string>
+    <string name="ask_for_water">More water for your dog?</string>
+
+    <string name="txt_now_throw_the_bag_running">Throw pet bag to the trash can Throw pet bag to the trash can</string>
+    <string name="txt_now_throw_the_bag">Throw pet bag to the TRASH CAN</string>
+    <string name="txt_throw_to_the_can1">Throw pet bag to the <b><font color="#FF0000">TRASH CAN 1</font> </b>
+        Throw pet bag to the <b> <font color="#FF0000">TRASH CAN 1</font> </b>Throw pet bag to the <b><font color="#FF0000">TRASH CAN 1</font> </b></string>
+    <string name="txt_throw_to_the_can2">Throw pet bag to the <b><font color="#FF0000">TRASH CAN 2</font> </b>
+        Throw pet bag to the <b><font color="#FF0000">TRASH CAN 2</font> </b> Throw pet bag to the <b> <font color="#FF0000">TRASH CAN 2</font> </b></string>
+    <string name="txt_throw_to_the_can3"> Throw pet bag to the <b><font color="#FF0000">TRASH CAN 3</font> </b>
+        Throw pet bag to the <b><font color="#FF0000">TRASH CAN 3</font> </b>Throw pet bag to the <b> <font color="#FF0000">TRASH CAN 3</font> </b></string>
+
+    <string name="btn_new_game">New \ngame</string>
+    <string name="btn_large_new_game">New game</string>
+    <string name="btn_throw_the_bag">Throw</string>
+    <string name="txt_pwr_of_throw">Power</string>
+    <string name="txt_wind">Wind</string>
+    <string name="txt_dist_to_the_can">To the can</string>
+    <string name="txt_pl_total_dist">Your result</string>
+    <string name="pl_start_result"> 0 </string>
+    <string name="pl_loop"> - 0 - </string>
+    <string name="bongo"> <font color="#FF0000">! ! !  B I N G O ! ! !</font> !!!! CONGRATULATIONS !!!! <font color="#FF0000">! ! !  B I N G O ! ! !</font> </string>
+
+    <string name="btn_next_level"> Next Level </string>
+    <string name="txt_level_one"> Level One </string>
+    <string name="txt_level_two"> Level Two </string>
+    <string name="txt_level_three"> Level Three </string>
+
+    <string name="txt_throws"> throws : </string>
+    <string name="level_one_description"> You have large size dog for now. Feed him.
+        \nTry different combinations of:
+        \n<font color="#ff0000"> Morning food</font>  + <font color = "#FFBB86FC"> Evening food</font>
+        + <font color = "#FF018786">  Water </font>
+        \nDifferent sets of food and water have an impact on the \ndistance you can throw pet bag.
+        \nUse <font color = "#FF6200EE">power</font> buttons to adjust the power of your throws.
+        \nTry to use a <font color = "#DF5B5B">MIN throws</font> to get in to the trash can.
+    </string>
+
+    <string name="level_two_description">The wind was added to this level.</string>
+    <string name="wind_description_strong_tail"> Strong tailwind</string>
+    <string name="wind_description_medium_tail"> Medium tailwind</string>
+    <string name="wind_description_low_tail"> Slow tailwind</string>
+    <string name="wind_description_strong_head"> Strong head wind</string>
+    <string name="wind_description_medium_head"> Medium head wind</string>
+    <string name="wind_description_low_head"> Slow head wind</string>
+
+</resources>

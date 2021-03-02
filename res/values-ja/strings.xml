@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">犬のうんちゴルフ</string>
+    <string name="start_button">開始</string>
+    <string name="btn_system_msg">もう一度押すとゲームを終了します</string>
+    <string name="player1_text">プレーヤの名前</string>
+
+    <string name="pg_btn_back">戻る</string>
+    <string name="btn_next">継続する</string>
+    <string name="pg2_btn_go">ゲームを始める</string>
+    <string name="txt_players_choice">選択する</string>
+
+    <string name="temp_txt_breed_left_top">犬種1</string>
+    <string name="temp_txt_breed_left_bottom">犬種2</string>
+   <string name="temp_txt_breed_right_top">犬種3</string>
+    <string name="temp_txt_breed_right_bottom">犬種4</string>
+
+    <string name="sizelarge">大</string>
+    <string name="sizemedium">中</string>
+    <string name="sizesmall">小さい</string>
+
+    <string name="largedogtwo">レトリーバー</string>
+    <string name="largedogthree">グレイハウンド</string>
+    <string name="largedogfour">プードル</string>
+
+    <string name="mediumdogone">コーギー</string>
+    <string name="mediumdogtwo">アイリッシュテリア</string>
+    <string name="mediumdogthree">ブルテリア</string>
+
+    <string name="smalldogone">ジャックラッセル</string>
+    <string name="smalldogtwo">ダックスフント</string>
+    <string name="smalldogfour">フレンチ・ブルドッグ</string>
+
+   <string name="txt_feed_pet">ペットに餌をやる</string>
+
+    <string name="radio_yes">はい</string>
+    <string name="radio_no">番号</string>
+    <string name="player_has_food_morning"> 朝 \n\t\t食物</string>
+    <string name="player_has_food_evening"> イブニング \n\t\t食物</string>
+    <string name="ask_for_water">あなたの犬のためのより多くの水?</string>
+
+    <string name="txt_now_throw_the_bag_running">袋をゴミ箱に捨てます。 袋をゴミ箱に捨てます。 袋をゴミ箱に捨てます。</string>
+    <string name="txt_throw_to_the_can1">袋をゴミ箱に捨てます1。 袋をゴミ箱に捨てます1。 袋をゴミ箱に捨てます1。</string>
+    <string name="txt_throw_to_the_can2">袋をゴミ箱に捨てます2。 袋をゴミ箱に捨てます2。 袋をゴミ箱に捨てます2。</string>
+    <string name="txt_throw_to_the_can3">袋をゴミ箱に捨てます3。 袋をゴミ箱に捨てます3。 袋をゴミ箱に捨てます3。</string>
+
+    <string name="txt_now_throw_the_bag">袋をゴミ箱に捨てます。</string>
+    <string name="btn_new_game">新着 \nゲーム</string>
+    <string name="btn_large_new_game">新着 ゲーム</string>
+    <string name="btn_throw_the_bag">スロー</string>
+    <string name="txt_pwr_of_throw">力</string>
+    <string name="txt_wind">風</string>
+    <string name="txt_dist_to_the_can">ごみ箱\n距離</string>
+    <string name="txt_pl_total_dist">結果</string>
+    <string name="pl_start_result"> 0 </string>
+    <string name="pl_loop"> - 0 - </string>
+    <string name="bongo"> ! ! !  B I N G O ! ! ! </string>
+
+    <string name="btn_next_level"> 次のレベル </string>
+    <string name="txt_level_one"> レベル1 </string>
+    <string name="txt_level_two"> レベル2 </string>
+    <string name="txt_level_three"> レベル3 </string>
+    <string name="txt_throws"> スロー : </string>
+    <string name="level_one_description"> あなたは今のところ大型犬を飼っています。 彼を養います。
+    のさまざまな組み合わせを試してください
+    モーニングフード+イブニングフード+水（はい/いいえ）。
+    さまざまな食品のセットが、バッグを投げることができる距離に影響を与えます。  </string>
+    <string name="level_two_description">風がこのレベルに追加されました。</string>
+
+    <string name="wind_description_strong_tail"> 強い追い風</string>
+    <string name="wind_description_medium_tail"> 中程度の追い風</string>
+    <string name="wind_description_low_tail"> 遅い追い風</string>
+
+    <string name="wind_description_strong_head"> 強い向かい風</string>
+    <string name="wind_description_medium_head"> 中程度の向かい風</string>
+    <string name="wind_description_low_head"> 遅い向かい風</string>
+</resources>
