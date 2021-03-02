@@ -1,7 +1,6 @@
 ## Android mobile game app called “DogsPooGolf”. 
 ### *Made in Android Studio with Java*
-### *Google Play `<link>` : *
-### * <https://play.google.com/store/apps/details?id=dim.kinders.dogspoogolf>*
+### *Google Play `<link>` : <https://play.google.com/store/apps/details?id=dim.kinders.dogspoogolf>*
 
 #### *Java code cosole game vertions :*
 #### *No database version `<link>` : <https://github.com/Swimmov/DogsPooGolf>*
